@@ -1,0 +1,9 @@
+# ------------------------------------------------------------------
+# LoL Draft Analyzer - dependências
+# Python 3.11+ recomendado
+# Instale com:  pip install -r requirements.txt
+# ------------------------------------------------------------------
+
+PySide6>=6.6.0      # Framework de UI (Qt). Inclui QTableView + modelos para o data grid.
+requests>=2.31.0    # Cliente HTTP para Leaguepedia (Cargo API) e Riot Data Dragon.
+pandas>=2.1.0       # Agregação estatística (group-by, presença, win rate, Prio Score).
